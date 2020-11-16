@@ -1,0 +1,76 @@
+.main {
+  color: white;
+  background-image: url("https://i.redd.it/huo2u5shvp051.png");
+  background-size: cover;
+  background-position: center center;
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.second {
+  color: white;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/a/b4/happy-birthday-decoration-celebration-colorful-krem-cupcak-5.jpg");
+  background-size: cover;
+  background-position: center center;
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: -10rem;
+  filter: drop-shadow(0 0 5px blue);
+}
+.countDownContainer {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: bold;
+  margin: 0 2rem;
+  filter: drop-shadow(0 0 5px black);
+}
+.countdownElement {
+  text-align: center;
+}
+.countdownElement span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  filter: drop-shadow(0 1px 1px black);
+}
+.bottomText {
+  font-weight: bold;
+  font-size: 2rem;
+  filter: drop-shadow(0 0 5px blue);
+}
+
+.navBar {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.navBar ul li {
+  list-style: none;
+}
+
+a,
+a:hover,
+a:visited {
+  list-style: none;
+  color: wheat;
+}

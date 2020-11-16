@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anniversary</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="main">
+    <div class="navBar">
+      <ul>
+        <a href="second.html"><li>Birthday</li></a>
+      </ul>
+    </div>
+    <h1>To Anniversary</h1>
+    <div class="countDownContainer">
+      <div class="countdownElement days-c">
+        <p class="big-text" id="days">0</p>
+        <span>days</span>
+      </div>
+      <div class="countdownElement hours-c">
+        <p class="big-text" id="hours">0</p>
+        <span>hours</span>
+      </div>
+      <div class="countdownElement minutes-c">
+        <p class="big-text" id="minutes">0</p>
+        <span>minutes</span>
+      </div>
+
+      <div class="countdownElement seconds-c">
+        <p class="big-text" id="seconds">0</p>
+        <span>seconds</span>
+      </div>
+    </div>
+    <p class="bottomText">Left</p>
+    <p class="bottomText" id="todaysDate"></p>
+    <script src="script/script.js"></script>
+  </body>
+  <div style="display: none">
+    <audio controls autoplay id="Test_Audio">
+      <source src="http://www.partyviberadio.com:8000/;listen.pls?sid=1" />
+    </audio>
+  </div>
+</html>
